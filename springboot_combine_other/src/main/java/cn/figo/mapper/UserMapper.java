@@ -1,4 +1,4 @@
-package cn.figo.maper;
+package cn.figo.mapper;
 
 import cn.figo.domain.User;
 import org.apache.ibatis.annotations.Mapper;
