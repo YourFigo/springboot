@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/spirngboot_learn/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_quick/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_combine_other/pom.xml" />
       </list>
     </option>
   </component>

@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0db4029a-0dd8-49cb-a3c5-6a3c322ce51e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_combine_other/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_combine_other/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_combine_other/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_combine_other/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_combine_other/src/main/java/cn/figo/SpringbootCombineOtherApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_combine_other/src/main/java/cn/figo/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_combine_other/src/main/java/cn/figo/maper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_combine_other/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_combine_other/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spirngboot_learn/src/main/java/cn/figo/controller/QuickConfigurationPropertiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spirngboot_learn/src/main/java/cn/figo/controller/QuickConfigurationPropertiesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spirngboot_learn/src/main/java/cn/figo/controller/QuickValueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spirngboot_learn/src/main/java/cn/figo/controller/QuickValueController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,6 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootCombineOtherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_combine_other" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.figo.SpringbootCombineOtherApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootQuickApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot_quick" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.figo.SpringbootQuickApplication" />
@@ -145,7 +172,7 @@
       <updated>1578812399978</updated>
       <workItem from="1578812402126" duration="498000" />
       <workItem from="1578812987410" duration="1236000" />
-      <workItem from="1578814483337" duration="7949000" />
+      <workItem from="1578814483337" duration="9071000" />
     </task>
     <task id="LOCAL-00001" summary="springboot add readme">
       <created>1578820325426</created>
@@ -161,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578822895086</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="springboot 两种方式获取配置文件中的数据">
+      <created>1578823367226</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578823367226</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +215,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springboot add readme" />
     <MESSAGE value="springboot yml配置文件和获取配置文件中的数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot yml配置文件和获取配置文件中的数据" />
+    <MESSAGE value="springboot 两种方式获取配置文件中的数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot 两种方式获取配置文件中的数据" />
   </component>
 </project>
