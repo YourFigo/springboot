@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spirngboot_learn/spirngboot_learn.iml" filepath="$PROJECT_DIR$/spirngboot_learn/spirngboot_learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_combine_other/springboot_combine_other.iml" filepath="$PROJECT_DIR$/springboot_combine_other/springboot_combine_other.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_demo/springboot_demo.iml" filepath="$PROJECT_DIR$/springboot_demo/springboot_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_quick/springboot_quick.iml" filepath="$PROJECT_DIR$/springboot_quick/springboot_quick.iml" />
     </modules>
   </component>

@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spirngboot_learn" />
         <module name="springboot_combine_other" />
+        <module name="springboot_demo" />
         <module name="springboot_quick" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spirngboot_learn" target="1.8" />
       <module name="springboot_combine_other" target="1.8" />
+      <module name="springboot_demo" target="1.8" />
       <module name="springboot_quick" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spirngboot_learn" options="-parameters" />
       <module name="springboot_combine_other" options="-parameters" />
+      <module name="springboot_demo" options="-parameters" />
       <module name="springboot_quick" options="-parameters" />
     </option>
   </component>
