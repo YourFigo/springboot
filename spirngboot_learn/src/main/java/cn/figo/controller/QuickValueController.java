@@ -20,8 +20,6 @@ public class QuickValueController {
     @RequestMapping("/quick2")
     @ResponseBody
     public String Quick() {
-        System.out.println(name);
-        System.out.println(addr);
         return "name:" + name + " addr:" + addr;
     }
 }

@@ -20,8 +20,6 @@ public class QuickConfigurationPropertiesController {
     @RequestMapping("/quick3")
     @ResponseBody
     public String Quick() {
-        System.out.println(name);
-        System.out.println(addr);
         return "name:" + name + " age:" + age + " addr:" + addr;
     }
 

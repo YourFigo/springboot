@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0db4029a-0dd8-49cb-a3c5-6a3c322ce51e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spirngboot_learn/src/main/java/cn/figo/controller/QuickConfigurationPropertiesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spirngboot_learn/src/main/java/cn/figo/controller/QuickValueController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spirngboot_learn/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spirngboot_learn/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spirngboot_learn/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spirngboot_learn/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spirngboot_learn/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spirngboot_learn/target/classes/cn/figo/controller/QuickController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spirngboot_learn/target/classes/cn/figo/controller/QuickController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spirngboot_learn/src/main/java/cn/figo/controller/QuickConfigurationPropertiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spirngboot_learn/src/main/java/cn/figo/controller/QuickConfigurationPropertiesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spirngboot_learn/src/main/java/cn/figo/controller/QuickValueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spirngboot_learn/src/main/java/cn/figo/controller/QuickValueController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +145,7 @@
       <updated>1578812399978</updated>
       <workItem from="1578812402126" duration="498000" />
       <workItem from="1578812987410" duration="1236000" />
-      <workItem from="1578814483337" duration="7426000" />
+      <workItem from="1578814483337" duration="7949000" />
     </task>
     <task id="LOCAL-00001" summary="springboot add readme">
       <created>1578820325426</created>
@@ -158,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578820325426</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="springboot yml配置文件和获取配置文件中的数据">
+      <created>1578822895086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578822895086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +180,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springboot add readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot add readme" />
+    <MESSAGE value="springboot yml配置文件和获取配置文件中的数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot yml配置文件和获取配置文件中的数据" />
   </component>
 </project>
