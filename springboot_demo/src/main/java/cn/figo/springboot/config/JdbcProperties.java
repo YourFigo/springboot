@@ -6,7 +6,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @Author Figo
  * @Date 2020/1/13 0:24
  */
-@ConfigurationProperties(prefix = "jdbc")  //读取配置文件中的jdbc内容
+//@ConfigurationProperties(prefix = "jdbc")  //读取配置文件中的jdbc内容
 public class JdbcProperties {
 
     private String driverClassName;
