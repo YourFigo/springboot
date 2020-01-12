@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0db4029a-0dd8-49cb-a3c5-6a3c322ce51e" name="Default Changelist" comment="" />
+    <list default="true" id="0db4029a-0dd8-49cb-a3c5-6a3c322ce51e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spirngboot_learn/src/main/java/cn/figo/controller/QuickConfigurationPropertiesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spirngboot_learn/src/main/java/cn/figo/controller/QuickValueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spirngboot_learn/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spirngboot_learn/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spirngboot_learn/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spirngboot_learn/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spirngboot_learn/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spirngboot_learn/target/classes/cn/figo/controller/QuickController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spirngboot_learn/target/classes/cn/figo/controller/QuickController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,7 +59,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WHhP42hGy81wDUfDG9dNZ4gnTq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -139,8 +149,16 @@
       <updated>1578812399978</updated>
       <workItem from="1578812402126" duration="498000" />
       <workItem from="1578812987410" duration="1236000" />
-      <workItem from="1578814483337" duration="5022000" />
+      <workItem from="1578814483337" duration="7426000" />
     </task>
+    <task id="LOCAL-00001" summary="springboot add readme">
+      <created>1578820325426</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578820325426</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,5 +174,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springboot add readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot add readme" />
   </component>
 </project>
