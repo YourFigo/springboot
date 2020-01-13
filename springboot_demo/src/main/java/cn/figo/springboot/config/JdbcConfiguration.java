@@ -15,7 +15,7 @@ import javax.sql.DataSource;
  * @Author Figo
  * @Date 2020/1/13 0:05
  */
-@Configuration  //声明式一个配置类
+@Configuration  //声明是一个配置类
 //@PropertySource("classpath:jdbc.properties")
 //@EnableConfigurationProperties(JdbcProperties.class)
 public class JdbcConfiguration {
