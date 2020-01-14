@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0db4029a-0dd8-49cb-a3c5-6a3c322ce51e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/config/WebMvcConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/interceptor/MyInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_demo/src/main/resources/static/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_base_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_core_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_extra_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_weekend_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_demo/springboot_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_demo/springboot_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_demo/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +235,8 @@
       <workItem from="1578843553607" duration="941000" />
       <workItem from="1578844543350" duration="3110000" />
       <workItem from="1578923852886" duration="4062000" />
-      <workItem from="1579007195653" duration="1748000" />
+      <workItem from="1579007195653" duration="2445000" />
+      <workItem from="1579012453215" duration="2340000" />
     </task>
     <task id="LOCAL-00001" summary="springboot add readme">
       <created>1578820325426</created>
@@ -295,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578930117953</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="springboot_demo 自定义拦截器并将拦截器注入spring">
+      <created>1579011827499</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579011827499</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +351,18 @@
     <MESSAGE value="springboot_demo jdbc配置类" />
     <MESSAGE value="springboot_demo jdbc配置读取类" />
     <MESSAGE value="springboot_demo 四种方式将datasource注入到spring容器" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot_demo 四种方式将datasource注入到spring容器" />
+    <MESSAGE value="springboot_demo 自定义拦截器并将拦截器注入spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot_demo 自定义拦截器并将拦截器注入spring" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/controller/UserController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
