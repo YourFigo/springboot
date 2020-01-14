@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0db4029a-0dd8-49cb-a3c5-6a3c322ce51e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/config/WebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/interceptor/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_demo/src/main/resources/static/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/config/JdbcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/config/JdbcConfiguration.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +67,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_demo/src/main/resources/static" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,6 +77,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.figo" />
       <recent name="cn.figo.springboot_quick" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1_Code\java\springboot\springboot_demo\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\1_Code\java\springboot\springboot_combine_other\src\main\resources\mapper" />
@@ -210,7 +215,8 @@
       <workItem from="1578842463151" duration="1057000" />
       <workItem from="1578843553607" duration="941000" />
       <workItem from="1578844543350" duration="3110000" />
-      <workItem from="1578923852886" duration="3893000" />
+      <workItem from="1578923852886" duration="4062000" />
+      <workItem from="1579007195653" duration="1748000" />
     </task>
     <task id="LOCAL-00001" summary="springboot add readme">
       <created>1578820325426</created>
@@ -282,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578847661966</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="springboot_demo 四种方式将datasource注入到spring容器">
+      <created>1578930117953</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578930117953</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
