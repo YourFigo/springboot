@@ -11,7 +11,6 @@ import tk.mybatis.spring.annotation.MapperScan;
 //@EnableAutoConfiguration
 //@ComponentScan
 @SpringBootApplication //相当于EnableAutoConfiguration、ComponentScan、SpringBootConfiguration三者的组合
-@MapperScan("cn.figo.springboot.mapper")
 public class MyApplication {
 
     public static void main(String[] args) {
