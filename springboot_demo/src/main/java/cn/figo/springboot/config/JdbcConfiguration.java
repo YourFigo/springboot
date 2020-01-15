@@ -15,7 +15,7 @@ import javax.sql.DataSource;
  * @Author Figo
  * @Date 2020/1/13 0:05
  */
-@Configuration  //声明是一个配置类
+//@Configuration  //声明是一个配置类
 //@PropertySource("classpath:jdbc.properties")
 //@EnableConfigurationProperties(JdbcProperties.class)
 public class JdbcConfiguration {
@@ -58,8 +58,8 @@ public class JdbcConfiguration {
 //        return dataSource;
 //    }
 
-    @Bean
-    @ConfigurationProperties(prefix = "jdbc")  //读取配置文件中的jdbc内容
+//    @Bean
+//    @ConfigurationProperties(prefix = "jdbc")  //读取配置文件中的jdbc内容
     public DataSource dataSource(){
         DruidDataSource dataSource = new DruidDataSource();
         return dataSource;

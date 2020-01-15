@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 /**
  * @Author Figo
  * @Date 2020/1/14 22:45
@@ -18,6 +20,10 @@ public class UserService {
 
     public User queryUserById(Long id){
         return this.userMapper.selectByPrimaryKey(id);
+    }
+
+    public List<User> queryAll(){
+        return this.userMapper.selectAll();
     }
 
     @Transactional

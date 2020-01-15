@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.sql.DataSource;
+import java.util.List;
 
 /**
  * @Author Figo
@@ -15,8 +16,8 @@ import javax.sql.DataSource;
 @RequestMapping("user")
 public class UserController {
 
-    @Autowired
-    private DataSource dataSource;
+//    @Autowired
+//    private DataSource dataSource;
 
     @Autowired
     private UserService userService;
@@ -25,6 +26,12 @@ public class UserController {
     @ResponseBody
     public User queryUserById(@PathVariable("id") Long id){
         return this.userService.queryUserById(id);
+    }
+
+    @GetMapping("all")
+    @ResponseBody
+    public List<User> queryAll(){
+        return this.userService.queryAll();
     }
 
     @GetMapping("show")

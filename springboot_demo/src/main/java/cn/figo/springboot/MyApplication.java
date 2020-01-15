@@ -1,10 +1,8 @@
 package cn.figo.springboot;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.SpringBootConfiguration;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
+import tk.mybatis.spring.annotation.MapperScan;
 
 /**
  * @Author Figo
@@ -13,6 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 //@EnableAutoConfiguration
 //@ComponentScan
 @SpringBootApplication //相当于EnableAutoConfiguration、ComponentScan、SpringBootConfiguration三者的组合
+@MapperScan("cn.figo.springboot.mapper")
 public class MyApplication {
 
     public static void main(String[] args) {
