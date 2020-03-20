@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0db4029a-0dd8-49cb-a3c5-6a3c322ce51e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_demo/src/main/resources/templates/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_demo/springboot_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_demo/springboot_demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/MyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_demo/src/main/java/cn/figo/springboot/controller/UserController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,23 +66,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_demo/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1_Code\java\springboot\springboot_combine_other\src\main\resources\mapper" />
+      <recent name="D:\1_Code\java\springboot\springboot_combine_other\src\main\resources\mapper\cn.figo" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.figo" />
       <recent name="cn.figo.springboot_quick" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\1_Code\java\springboot\springboot_demo\src\main\resources\static" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\1_Code\java\springboot\springboot_combine_other\src\main\resources\mapper" />
-      <recent name="D:\1_Code\java\springboot\springboot_combine_other\src\main\resources\mapper\cn.figo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -193,12 +182,12 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.15085325" />
+        <option name="contentProportion" value="0.1739427" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2b096b03" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@49460036" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -228,7 +217,9 @@
       <workItem from="1579007195653" duration="2445000" />
       <workItem from="1579012453215" duration="3054000" />
       <workItem from="1579097850413" duration="4321000" />
-      <workItem from="1579102305160" duration="995000" />
+      <workItem from="1579102305160" duration="1222000" />
+      <workItem from="1579342468835" duration="1861000" />
+      <workItem from="1579350407065" duration="4904000" />
     </task>
     <task id="LOCAL-00001" summary="springboot add readme">
       <created>1578820325426</created>
@@ -328,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579101627565</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="springboot_demo thymeleaf">
+      <created>1579103481662</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579103481662</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +358,8 @@
     <MESSAGE value="springboot_demo 自定义拦截器并将拦截器注入spring" />
     <MESSAGE value="springboot_demo 配置mybatis" />
     <MESSAGE value="springboot_demo 默认mapper的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot_demo 默认mapper的使用" />
+    <MESSAGE value="springboot_demo thymeleaf" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot_demo thymeleaf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

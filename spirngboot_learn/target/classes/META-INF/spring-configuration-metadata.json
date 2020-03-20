@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.figo.controller.QuickConfigurationPropertiesController",
+      "name": "person",
+      "type": "cn.figo.controller.QuickConfigurationPropertiesController"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cn.figo.controller.QuickConfigurationPropertiesController",
+      "name": "person.addr",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.figo.controller.QuickConfigurationPropertiesController",
+      "name": "person.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.figo.controller.QuickConfigurationPropertiesController",
+      "name": "person.name",
+      "type": "java.lang.String"
+    }
+  ]
+}
